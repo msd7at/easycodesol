@@ -1,0 +1,35 @@
+body{
+  color:black;
+ background-color:#493f8f;
+ background-repeat: no-repeat;
+ background-position: center;
+
+ font-size: 20px;
+
+}
+.jocmenu{
+  background-color: #120c3b;
+  top:20%;
+  border:2px;
+  border-color: blue;
+  border-style: dashed;
+  position:absolute;
+  left:8%;
+  width:25%;
+  height:60%;
+}
+.wk1q1{
+
+  border:2px;
+  border-color: blue;
+  border-style: dashed;
+  position:absolute;
+  left:15%;
+}
+.link{
+  color: white;
+  font-size: 25px;
+}
+.apk{
+  color:#16fa16;
+}
