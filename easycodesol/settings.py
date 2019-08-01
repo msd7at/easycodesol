@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-import django_heroku
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -21,7 +21,7 @@ STATIC_DIR=os.path.join(BASE_DIR,"static")
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'j4__77p@*iyo=*w8sa9__qk(cr6lj3bf+k(%(!(%$#b9se3e)c'
+########************************************************
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -131,4 +131,3 @@ STATICFILES_DIRS=[
     STATIC_DIR,
 ]
 # Activate Django-Heroku.
-django_heroku.settings(locals())
